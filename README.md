@@ -10,4 +10,5 @@ shell_exec('./script.bin');
 $a = 'df';
 ```
 It depends ONLY on the binary file itself. PHP itself will wait till the script entirely finished.
-You can read more about shell exec with timeout article in russian.
+You can read more about [shell exec with timeout in article](https://jeka.by/post/1113/PHP-shell_exec-with-timeout/)
+written in russian.
