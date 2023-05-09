@@ -1,4 +1,14 @@
 {
+    "autoload": {
+        "psr-4": {
+            "ShellExec\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShellExec\\Tests\\": "tests/"
+        }
+    },
     "require": {
         "symfony/process": "^6.2"
     }
